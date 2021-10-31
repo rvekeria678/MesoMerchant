@@ -7,17 +7,17 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
-    <div class="container mt-4">
+    <div class="container mt-4 mb-4">
         <div class="row">
             <div class="col-sm-12 col-md-12 p-4" id="title">Software Engineering 4 [TEMP TITLE]</div>
             <div class="col-sm-12 col-md-4" id="navbar">
                 <form class>
-                    <button type = "button" class="btn btn-outline-dark btn-block p-3">Home</button>
-                    <button type = "button" class="btn btn-outline-dark btn-block p-3">Meet the Team</button>
-                    <button type = "button" class="btn btn-outline-dark btn-block p-3">Research</button>
-                    <button type = "button" class="btn btn-outline-dark btn-block p-3">Intermediate Assignments</button>
-                    <button type = "button" class="btn btn-outline-dark btn-block  p-3">Agenda</button>
-                    <button type = "button" class="btn btn-outline-dark btn-block p-3">Project Proposal</button>
+                    <button type = "button" class="btn btn-outline-dark btn-block p-3" onclick="home()">Home</button>
+                    <button type = "button" class="btn btn-outline-dark btn-block p-3" onclick="team()">Meet the Team</button>
+                    <button type = "button" class="btn btn-outline-dark btn-block p-3" onclick="research()">Research</button>
+                    <button type = "button" class="btn btn-outline-dark btn-block p-3"onclick="assignments()">Intermediate Assignments</button>
+                    <button type = "button" class="btn btn-outline-dark btn-block  p-3" onclick="agenda()">Agenda</button>
+                    <button type = "button" class="btn btn-outline-dark btn-block p-3" onclick="proposal()">Project Proposal</button>
                 </form>
             </div>
             <div class="col-sm-12 col-md-8" id="content">
@@ -44,6 +44,6 @@
             </div>
         </div>
     </div>
-
+    <script src="switch.js"></script>
 </body>
 </html>
