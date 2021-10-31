@@ -1,18 +1,32 @@
-function home() {
-    document.getElementById('content').innerHTML = "<header>Home</header>";
-}
-function team() {
-    document.getElementById('content').innerHTML = "<header>Meet the Team</header>";
-}
-function research() {
-    document.getElementById('content').innerHTML = "<header>Research</header>";
-}
-function assignments() {
-    document.getElementById('content').innerHTML = "<header>Intermediate Assignments</header>";
-}
-function agenda() {
-    document.getElementById('content').innerHTML = "<header>Agenda</header>";
-}
-function proposal() {
-    document.getElementById('content').innerHTML = "<header>Project Proposal</header>";
-}
+$(document).ready(function(){
+    $("#btn1").click(function(){
+        $("header").show();
+        $("#homeimg").show();
+        $("p").show();
+    });
+    $("#btn2").click(function() {
+        $("header").hide();
+        $("#homeimg").hide();
+        $("p").hide();
+    });
+    $("#btn3").click(function() {
+        $("header").hide();
+        $("#homeimg").hide();
+        $("p").hide();
+    });
+    $("#btn4").click(function() {
+        $("header").hide();
+        $("#homeimg").hide();
+        $("p").hide();
+    });
+    $("#btn5").click(function() {
+        $("header").hide();
+        $("#homeimg").hide();
+        $("p").hide();
+    });
+    $("#btn6").click(function() {
+        $("header").hide();
+        $("#homeimg").hide();
+        $("p").hide();
+    });
+});
