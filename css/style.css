@@ -54,6 +54,8 @@ ul {
     border-radius: 50%;
     margin-top: 20px;
     margin-bottom: 10px;
+    width: 50%;
+    border: solid white 4px;
 }
 #usecaseimg {
     width: 90%;
