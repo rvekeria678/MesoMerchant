@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Team 4</title>
     <link href="css/style.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
@@ -19,6 +20,7 @@
                     <button type = "button" class="btn btn-outline-dark btn-block p-3" id="btn4">Intermediate Assignments</button>
                     <button type = "button" class="btn btn-outline-dark btn-block  p-3" id="btn5">Agenda</button>
                     <button type = "button" class="btn btn-outline-dark btn-block p-3" id="btn6">Project Proposal</button>
+                    
                 </form>
             </div>
             <div class="col-sm-12 col-md-8" id="content">
@@ -52,12 +54,14 @@
                 </div>
                 <div id="s4">
                     <header>Intermediate Assignments</header>
-                    <div class="btn-group btn-group-justified m-4" id="diagrams">
-                        <a href="#" class="btn btn-light">Use Cases</a>
-                        <a href="#" class="btn btn-light">Requirements</a>
-                        <a href="#" class="btn btn-light">Class Diagrams</a>
-                        <a href="#" class="btn btn-light">Sequence Diagrams</a>
+                    <div class="container">
+                        <button type = "button" class="btn btn-outline-light btn-block p-1 w-100 h-25" id="btn4a">Use Cases</button>
+                        <button type = "button" class="btn btn-outline-light btn-block p-1 w-100 h-25" id="btn4b">Requirements</button>
+                        <button type = "button" class="btn btn-outline-light btn-block p-1 w-100 h-25" id="btn4c">Class Diagrams</button>
+                        <button type = "button" class="btn btn-outline-light btn-block p-1 w-100 h-25" id="btn4d">Sequence Diagrams</button>
                     </div>
+                    <img src="./images/SE_T4_UseCaseDiagram.png" alt="usecasediagram" id="usecaseimg">
+                    <embed src="src/SET4Req.pdf" id="reqdoc">
                 </div>
                 <div id="s5">
                     <header>Agenda</header>
