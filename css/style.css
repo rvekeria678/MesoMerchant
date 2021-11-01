@@ -2,7 +2,7 @@ body, html {
     background-image: url("../images/background.jpg");
 }
 #title {
-    background-color: rgb(165, 77, 77);
+    background-color: rgb(73, 139, 87);
     border: ridge rgb(255, 255, 255) 3px;
     text-align: center;
     color: white;
