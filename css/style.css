@@ -63,8 +63,9 @@ ul {
 }
 #reqdoc {
     width: 95%;
-    height: 500px;
+    height: 800px;
     margin-top: 20px;
+    border: ridge white 5px;
 }
 #card {
     background-color: rgba(160, 160, 160, 0.4);

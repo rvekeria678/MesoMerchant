@@ -5,7 +5,7 @@ $(document).ready(function(){
     $("#s4").hide();
     $("#s5").hide();
     $("#s6").hide();
-    $("#reqdoc").hide();
+    $("#reqcontent").hide();
     $("#btn1").click(function(){
         $("#s1").show();
         $("#s2").hide();
@@ -56,18 +56,18 @@ $(document).ready(function(){
     });
     $("#btn4a").click(function(){
         $("#usecaseimg").show();
-        $("#reqdoc").hide();
+        $("#reqcontent").hide();
     });
     $("#btn4b").click(function(){
         $("#usecaseimg").hide();
-        $("#reqdoc").show();
+        $("#reqcontent").show();
     });
     $("#btn4c").click(function(){
         $("#usecaseimg").hide();
-        $("#reqdoc").hide();
+        $("#reqcontent").hide();
     });
     $("#btn4d").click(function(){
         $("#usecaseimg").hide();
-        $("#reqdoc").hide();
+        $("#reqcontent").hide();
     });
 });
