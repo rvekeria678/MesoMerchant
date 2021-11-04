@@ -1,4 +1,5 @@
 body, html {
+    /*Reference: https://www.peakpx.com/en/hd-wallpaper-desktop-vvijv */
     background-image: url("../images/background.jpg");
 }
 #title {
@@ -78,7 +79,13 @@ ul {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 #email {
-    padding-bottom: 20px;
+    padding-bottom: 5px;
     font-size: 15px;
 }
-
+#linkedin {
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+#limg {
+    width: 100px;
+}
