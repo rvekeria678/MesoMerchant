@@ -91,7 +91,16 @@ ul {
 }
 #slogo {
     width: 60%;
+    margin-bottom: 20px;
 }
 #OPdoc {
-    height: 400px;
+    height: 800px;
+    width: 95%;
+}
+#histframework {
+    margin-top: 20px;
+}
+#histdoc {
+    height: 800px;
+    width: 95%;
 }

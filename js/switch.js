@@ -5,6 +5,10 @@ $(document).ready(function(){
     $("#s4").hide();
     $("#s5").hide();
     $("#s6").hide();
+    $("#s7").hide();
+    $("#s8").hide();
+    $("#s9").hide();
+    $("#s10").hide();
     $("#reqcontent").hide();
     $("#btn1").click(function(){
         $("#s1").show();
@@ -13,6 +17,10 @@ $(document).ready(function(){
         $("#s4").hide();
         $("#s5").hide();
         $("#s6").hide();
+        $("#s7").hide();
+        $("#s8").hide();
+        $("#s9").hide();
+        $("#s10").hide();
     });
     $("#btn2").click(function() {
         $("#s1").hide();
@@ -21,6 +29,10 @@ $(document).ready(function(){
         $("#s4").hide();
         $("#s5").hide();
         $("#s6").hide();
+        $("#s7").hide();
+        $("#s8").hide();
+        $("#s9").hide();
+        $("#s10").hide();
     });
     $("#btn3").click(function() {
         $("#s1").hide();
@@ -29,6 +41,10 @@ $(document).ready(function(){
         $("#s4").hide();
         $("#s5").hide();
         $("#s6").hide();
+        $("#s7").hide();
+        $("#s8").hide();
+        $("#s9").hide();
+        $("#s10").hide();
     });
     $("#btn4").click(function() {
         $("#s1").hide();
@@ -37,6 +53,10 @@ $(document).ready(function(){
         $("#s4").show();
         $("#s5").hide();
         $("#s6").hide();
+        $("#s7").hide();
+        $("#s8").hide();
+        $("#s9").hide();
+        $("#s10").hide();
     });
     $("#btn5").click(function() {
         $("#s1").hide();
@@ -45,6 +65,10 @@ $(document).ready(function(){
         $("#s4").hide();
         $("#s5").show();
         $("#s6").hide();
+        $("#s7").hide();
+        $("#s8").hide();
+        $("#s9").hide();
+        $("#s10").hide();
     });
     $("#btn6").click(function() {
         $("#s1").hide();
@@ -53,7 +77,60 @@ $(document).ready(function(){
         $("#s4").hide();
         $("#s5").hide();
         $("#s6").show();
+        $("#s7").hide();
+        $("#s8").hide();
+        $("#s9").hide();
+        $("#s10").hide();
     });
+    $("#btn7").click(function() {
+        $("#s1").hide();
+        $("#s2").hide();
+        $("#s3").hide();
+        $("#s4").hide();
+        $("#s5").hide();
+        $("#s6").hide();
+        $("#s7").show();
+        $("#s8").hide();
+        $("#s9").hide();
+        $("#s10").hide();
+    });
+    $("#btn8").click(function() {
+        $("#s1").hide();
+        $("#s2").hide();
+        $("#s3").hide();
+        $("#s4").hide();
+        $("#s5").hide();
+        $("#s6").hide();
+        $("#s7").hide();
+        $("#s8").show();
+        $("#s9").hide();
+        $("#s10").hide();
+    });
+    $("#btn9").click(function() {
+        $("#s1").hide();
+        $("#s2").hide();
+        $("#s3").hide();
+        $("#s4").hide();
+        $("#s5").hide();
+        $("#s6").hide();
+        $("#s7").hide();
+        $("#s8").hide();
+        $("#s9").show();
+        $("#s10").hide();
+    });
+    $("#btn10").click(function() {
+        $("#s1").hide();
+        $("#s2").hide();
+        $("#s3").hide();
+        $("#s4").hide();
+        $("#s5").hide();
+        $("#s6").hide();
+        $("#s7").hide();
+        $("#s8").hide();
+        $("#s9").hide();
+        $("#s10").show();
+    });
+
     $("#btn4a").click(function(){
         $("#usecaseimg").show();
         $("#reqcontent").hide();
