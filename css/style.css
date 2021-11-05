@@ -36,7 +36,7 @@ p {
     color: white;
     margin: 15px;
 }
-h3, h4, h5{
+h3, h4, h5, h6{
     color: white;
 }
 #s5 h3{
@@ -90,7 +90,7 @@ ul {
     width: 100px;
 }
 #slogo {
-    width: 60%;
+    width: 95%;
     margin-bottom: 20px;
 }
 #OPdoc {
@@ -103,4 +103,8 @@ ul {
 #histdoc {
     height: 800px;
     width: 95%;
+}
+#role {
+    font-size: 20px;
+    font-style: italic;
 }
