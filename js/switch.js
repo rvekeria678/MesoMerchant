@@ -10,6 +10,8 @@ $(document).ready(function(){
     $("#s9").hide();
     $("#s10").hide();
     $("#reqcontent").hide();
+    $("#sequenceimg").hide();
+    $("#classimg").hide();
     $("#btn1").click(function(){
         $("#s1").show();
         $("#s2").hide();
@@ -134,17 +136,25 @@ $(document).ready(function(){
     $("#btn4a").click(function(){
         $("#usecaseimg").show();
         $("#reqcontent").hide();
+        $("#sequenceimg").hide();
+        $("#classimg").hide();
     });
     $("#btn4b").click(function(){
         $("#usecaseimg").hide();
         $("#reqcontent").show();
+        $("#sequenceimg").hide();
+        $("#classimg").hide();
     });
     $("#btn4c").click(function(){
         $("#usecaseimg").hide();
         $("#reqcontent").hide();
+        $("#sequenceimg").hide();
+        $("#classimg").show();
     });
     $("#btn4d").click(function(){
         $("#usecaseimg").hide();
         $("#reqcontent").hide();
+        $("#sequenceimg").show();
+        $("#classimg").hide();
     });
 });

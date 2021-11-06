@@ -108,3 +108,12 @@ ul {
     font-size: 20px;
     font-style: italic;
 }
+#seq1, #seq2 {
+    margin: 10px;
+}
+#seq1 {
+    width: 65%;
+}
+#classimg {
+    margin: 15px;
+}
