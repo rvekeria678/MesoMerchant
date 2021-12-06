@@ -1,131 +1,118 @@
 body, html {
-    /*Reference: https://www.peakpx.com/en/hd-wallpaper-desktop-vvijv */
-    background-image: url("../images/background.jpg");
+    background: url("/images/background.jpg");
 }
 #title {
+    text-align: center;
+    font-size: 35px;
+    font-family: Tahoma;
+    padding: 10px;
     background-color: rgb(73, 139, 87);
-    border: ridge rgb(255, 255, 255) 3px;
-    text-align: center;
     color: white;
-    font-size: 30px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
 }
-#navbar {
-    border: ridge rgb(255, 255, 255) 3px;
-    background-color:rgb(180, 179, 179);
-}
-#content {
-    background-color:rgb(77, 77, 77);
-    border: ridge rgb(255, 255, 255) 3px;
+.ui-tabs .ui-tabs-nav {
     text-align: center;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    background: transparent;
+    border: none;
 }
-form {
-    padding: 30px;
+.ui-tabs .ui-tabs-nav li {
+    float: none !important;
+    display: inline-block;
 }
-header {
-    color: white;
-    font-size: 25px;
-    margin: 10px;
+#tabs .ui-state-highlight {
+    background-color: yellow;
+}
+#tabs .ui-tabs-active {
+    color: #000000;
+}
+#tabs .ui-state-default {
+    background-color: lightblue;
+}
+/* Reference: https://stackoverflow.com/questions/21233394/how-change-text-color-of-tab-selected-by-css */
+.ui-tabs .ui-tabs-nav li.ui-tabs-active a {
+    font-family: Tahoma;
+    color: black;
+    background-color: darkgrey;
+}
+.ui-tabs .ui-tabs-nav a {
+    background: #fff;
+    border: 1px solid black;
+    border-bottom: none;
+}
+.ui-tabs .ui-tabs-nav a:hover {
+    background:rgb(73, 139, 87);;
+}
+#tabs {
+    background: lightgray;
+}
+.tabste {
+    font-size: 20px;
+}
+#homeTab, #resourceTab, #aboutTab, #demoTab {
+    text-align: center;
+    border-top: ridge 6px rgb(179, 179, 179);
 }
 #homeimg {
-    width: 95%;
-    margin-bottom: 15px;
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 10px;
 }
-p {
-    color: white;
-    margin: 15px;
-}
-h3, h4, h5, h6{
-    color: white;
-}
-#s5 h3{
-    text-align: left;
-    margin-left: 10px;
-}
-#s5 header {
+#hometxt {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 800px;
     text-align: center;
-    margin-bottom: 10px;
 }
-ul {
-    color: white;
-    text-align: left;
+#assigndocs, #sourcedocs, #otherdocs, #protodocs {
+    border: solid 1px black;
+    margin: 5px;
+    background: white;
+    padding: 10px;
 }
-#profile {
+header {
+    font-size: 25px;
+    font-weight: 500;
+}
+a:link:hover {
+    background: lightblue;
+    text-decoration: none;
+    font-weight: 600;
+}
+.profile {
+    width: 300px;
     border-radius: 50%;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    width: 50%;
-    border: solid white 4px;
+    margin: 0 auto;
+    margin-top: 10px;
 }
-#usecaseimg {
-    width: 90%;
-    margin: 10px;
+.name {
+    font-weight: 600;
+    font-size: 25px;
 }
-#reqdoc {
-    width: 95%;
-    height: 800px;
-    margin-top: 20px;
-    border: ridge white 5px;
-}
-#card {
-    background-color: rgba(160, 160, 160, 0.4);
-    border-radius: 5%;
-    margin-bottom: 20px;
-    color: white;
-}
-#name {
-    font-size: 30px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-#email {
-    padding-bottom: 5px;
-    font-size: 15px;
-}
-#linkedin {
-    font-size: 15px;
-    padding-bottom: 20px;
-}
-#limg {
-    width: 100px;
-}
-#slogo {
-    width: 95%;
-    margin-bottom: 20px;
-}
-#OPdoc {
-    height: 800px;
-    width: 95%;
-}
-#histframework {
-    margin-top: 20px;
-}
-#histdoc {
-    height: 800px;
-    width: 95%;
-}
-#role {
-    font-size: 20px;
+.role {
     font-style: italic;
 }
-#seq1, #seq2 {
-    margin: 10px;
+.email {
+    margin-bottom: 10px;
 }
-#seq1 {
-    width: 65%;
-}
-#classimg {
+.card {
     margin: 15px;
 }
-#soldownloadimg {
-    padding-top: 20px;
+.limg { 
+    width: 150px;
+    margin-bottom: 20px;
 }
-.linkic {
-    width: 25px;
+.limg:hover {
+    background: white;
 }
-.sourcelist {
-    color: white;
+.ui-widget-header a {
+    color: black;
 }
-#s3 {
-    text-align: left;
+.ui-content a:link {
+    color: black;
+}
+.ui-widget-content a:visited {
+    color: black;
+}
+.protolist {
+    font-weight: 400;
+    margin-bottom: 10px;
 }

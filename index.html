@@ -2,220 +2,197 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial scale=1">
-    <title>Team 4</title>
-    <link href="css/style.css" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width">
+    <title>MesoMerchant</title>
+    <link href="./css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+    <link href='https://code.jquery.com/ui/1.11.4/themes/flick/jquery-ui.css' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
 </head>
 <body>
-    <div class="container mt-4 mb-4">
+    <div class="container-fluid" id="wrapper">
         <div class="row">
-            <div class="col-sm-12 col-md-12 p-4" id="title">MesoMerchant</div>
-            <div class="col-sm-12 col-md-4" id="navbar">
-                <form class>
-                    <button type = "button" class="btn btn-outline-dark btn-block p-3" id="btn1">Home</button>
-                    <button type = "button" class="btn btn-outline-dark btn-block p-3" id="btn2">Meet the Team</button>
-                    <button type = "button" class="btn btn-outline-dark btn-block p-3" id="btn3">Domain Research</button>
-                    <button type = "button" class="btn btn-outline-dark btn-block p-3" id="btn4">Intermediate Assignments</button>
-                    <!-- Agenda Button-->
-                    <button type = "button" class="btn btn-outline-dark btn-block p-3" id="btn6">Project Proposal</button>
-                    <button type = "button" class="btn btn-outline-dark btn-block p-3" id="btn7">Prototype</button>
-                    <button type = "button" class="btn btn-outline-dark btn-block p-3" id="btn8">Presentation</button>
-                    <button type = "button" class="btn btn-outline-dark btn-block p-3" id="btn9">SRS</button>
-                    <button type = "button" class="btn btn-outline-dark btn-block p-3" id="btn10">Demonstration Video</button>
-                    
-                </form>
-            </div>
-            <div class="col-sm-12 col-md-8" id="content">
-                <div id="s1">
-                    <header>Welcome to Our Game!</header>
-                    <!--Reference: https://www.solarus-games.org/en/development/resource-packs/free-resource-pack#gallery-1 -->
-                    <img src="./images/MesoMerchantHomeImage.png" alt="svtemp" id="homeimg">
-                    <h6>Project Description</h6>
-                    <p>
-                        The purpose of this RPG is to enrich the history education of elementary children attending the sixth grade. This is achieved through in-game elements such NPC dialogs, objects, etc. Players will travel back in time to the Phoenician era and interact with an environment very different from their own. This games offers a different method of educating children while also being entertaining.
-                    </p>
-                    <p>
-                        This game was created over the course of the fall 2021 semester at the University of Massachussetts, Lowell.
-                    </p>
-                </div>
-                <div id="s2">
-                    <header>Meet the Team</header>
-                    <div id="card">
-                        <img src="./images/benprofile.jpg" alt="profile" id="profile">
-                        <div id="name">Benjamin Alexander</div>
-                        <div id="role">Requirements Analyst / Programmer</div>
-                        <div id="email">Email - Benjamin_alexander@student.uml.edu</div>
-                    </div>
-                    <div id="card">
-                        <img src="./images/thprofile.jpg" alt="profile" id="profile">
-                        <div id="name">Tynan Hollyer</div>
-                        <div id="role">Researcher / Programmer</div>
-                        <div id="email">Email - Tynan_Hollyer@student.uml.edu</div>
-                        <div id="linkedin">
-                            <!-- Reference: https://1000logos.net/linkedin-logo/ -->
-                            <a href="https://www.linkedin.com/in/tynan-hollyer"><img src="./images/li.png" alt="Linkedin" id="limg"></a>
-                        </div>
-                    </div>
-                    <div id="card">
-                        <img src="./images/nprofile.jpg" alt="profile" id="profile">
-                        <div id="name">Nicky Nath</div>
-                        <div id="role">Librarian</div>
-                        <div id="email">Email - Nicky_nath@student.uml.edu</div>
-                    </div>
-                    <div id="card">
-                        <img src="./images/BrandonProfile.jpg" alt="profile" id="profile">
-                        <div id="name">Brandon Swanberg</div>
-                        <div id="role">Project Manager / Programmer / Researcher</div>
-                        <div id="email">Email - brandon_swanberg@student.uml.edu</div>
-                        <div id="linkedin">
-                            <!-- Reference: https://1000logos.net/linkedin-logo/ -->
-                            <a href="https://www.linkedin.com/in/brandonswanberg/"><img src="./images/li.png" alt="Linkedin" id="limg"></a>
-                        </div>
-                    </div>
-                    <div id="card">
-                        <img src="./images/rjprofile.jpg" alt="profile" id="profile">
-                        <div id="name">Raj Vekeria</div>
-                        <div id="role">Web Developer / Programmer / Librarian / Researcher</div>
-                        <div id="email">Email - Raj_Vekeria@cs.uml.edu</div>
-                        <div id="linkedin">
-                            <!-- Reference: https://1000logos.net/linkedin-logo/ -->
-                            <a href="https://www.linkedin.com/in/raj-vekeria"><img src="./images/li.png" alt="Linkedin" id="limg"></a>
-                        </div>
-                    </div>
-                </div>
-                <div id="s3">
-                    <header>Domain Research</header>
-                    <!-- Reference: https://www.iconfinder.com/icons/3285294/chain_link_hyperlink_link_linked_website_web_link_icon -->
-                    <div class="sourcelist">
-                        <img src="./images/linkicon.webp" class="linkic"> Source 1 - 
-                        <a href="https://www.solarus-games.org/en/solarus">Solarus Game Engine</a>
-                    </div>
-                    <div class="sourcelist">
-                        <img src="./images/linkicon.webp" class="linkic"> Source 2 - 
-                        <a href="https://www.worldhistory.org/article/9/agriculture-in-the-fertile-crescent--mesopotamia/">Mesopotamia Agriculture</a>
-                    </div>
-                    <div class="sourcelist">
-                        <img src="./images/linkicon.webp" class="linkic"> Source 3 - 
-                        <a href="https://www.worldhistory.org/gilgamesh/">Gilgamesh History</a>
-                    </div>
-                    <div class="sourcelist">
-                        <img src="./images/linkicon.webp" class="linkic"> Source 4 - 
-                        <a href="https://www.doe.mass.edu/frameworks/hss/2018-12.pdf">Massachussetts Social Studies Framework 2018</a>
-                    </div>
-                    <div class="sourcelist">
-                        <img src="./images/linkicon.webp" class="linkic"> Source 5 - 
-                        <a href="https://www.historyonthenet.com/mesopotamian-merchants-and-traders">Mesopotamia Merchants</a>
-                    </div>
-                    <div class="sourcelist">
-                        <img src="./images/linkicon.webp" class="linkic"> Source 6 - 
-                        <a href="https://www.britannica.com/topic/cuneiform">Cuneiform Writing</a>
-                    </div>
-                    <div class="sourcelist">
-                        <img src="./images/linkicon.webp" class="linkic"> Source 7 - 
-                        <a href="https://www.britannica.com/place/Babylon-ancient-city-Mesopotamia-Asia">Babylon History</a>
-                    </div>
-                    <div class="sourcelist">
-                        <img src="./images/linkicon.webp" class="linkic"> Source 8 - 
-                        <a href="https://www.lua.org/manual/5.4/">Lua Programming Language</a>
-                    </div>
-                </div>
-                <div id="s4">
-                    <header>Intermediate Assignments</header>
-                    <div class="container">
-                        <button type = "button" class="btn btn-outline-light btn-block p-1 w-100 h-25" id="btn4a">Use Cases</button>
-                        <button type = "button" class="btn btn-outline-light btn-block p-1 w-100 h-25" id="btn4b">Requirements</button>
-                        <button type = "button" class="btn btn-outline-light btn-block p-1 w-100 h-25" id="btn4c">Class Diagrams</button>
-                        <button type = "button" class="btn btn-outline-light btn-block p-1 w-100 h-25 mb-2" id="btn4d">Sequence Diagrams</button>
-                    </div>
-                    <img src="./images/SE_T4_UseCaseDiagram.png" alt="usecasediagram" id="usecaseimg">
-                    <div id="reqcontent">
-                        <a href="./src/SET4Req.pdf" download>Requirements Document Download
-                        </a>
-                        <embed src="src/SET4Req.pdf" id="reqdoc">
-                    </div>
-                    <img src="./images/classDiagram.png" alt="usecasediagram" id="classimg">
-                    <div id="sequenceimg">
-                        <img src="./images/sequenceDiagramPurchaseItem.png" alt="sequence1diagram" id="seq1">
-                        <img src="./images/sequenceDiagramSelectItem.png" alt="sequence2diagram" id="seq2">
-                    </div>
-                </div>
-                <div id="s5">
-                    <header>Agenda</header>
-                    <h3>Meeting 1 - October 24th, 2021</h3>
-                    <ul>
-                        <li>Discussed possible educational subjects</li>
-                        <li>Discussed different types of game implementations (2D, 3D, etc.)</li>
-                        <li>Discussed different platforms that we planned to use to communicate and edit files</li>
-                        <li>Divided up and assigned parts of Use Case/Requirements Project Assignment</li>
-                    </ul>
-                    <h3>Meeting 2 - November 1st, 2021</h3>
-                        <ul>
-                            <li>Recapped the progress made during the weekend</li>
-                            <li>Discussed and made a decision on the game engine we will be using for the game</li>
-                            <li>Assigned roles for the completion of the class and sequence diagrams.</li>
-                        </ul>
-                    <h3>Meeting 3 - November 8th, 2021</h3>
-                        <ul>
-                            <li>TBD</li>
-                    </ul>
-                    <h3>Meeting 4 - November 15th, 2021</h3>
-                        <ul>
-                            <li>TBD</li>
-                    </ul>
-                    <header>Due Dates</header>
-                    <ul>
-                        <li>Initial Questions (Individual) - October 22, 2021</li>
-                        <li>Initial Questions (Group) - October 23, 2021</li>
-                        <li>Project Requirements and Use Cases (Group) - October 29, 2021</li>
-                        <li>Project Class and Sequence Diagrams (Group) - November 5, 2021</li>
-                        <li>Website Skeleton (Group) - November 5, 2021</li>
-                    </ul>
-                </div>
-                <div id="s6">
-                    <header>Project Proposal</header>
-                    <h5>Original Project Description</h5>
-                    <div id="OPcontent">
-                        <a href="./src/project-description.pdf" download>Original Project Description Download
-                        </a>
-                        <embed src="src/project-description.pdf" id="OPdoc">
-                    </div>
-                </div>
-                <div id="s7">
-                    <header>Prototype</header>
-                    <div>
-                        <p>The MesoMerchant prototype is able to run on the following operating systems: Windows, Mac, Linux, Android, and Raspberry Pi. Solarus acts similar to running an emulator such that quests are loaded like ROM files. 
-                            MesoMerchant currently runs on version 1.6.5 of Solarus which can be downloaded from the following website: 
+            <div class="col-xs-12 col-md-12" id="title">MesoMerchant</div>
+            <div class="col-sm-12 col-md-12 col-lg-12 w-100" id="tabs">
+                <ul>
+                    <li><a href="#homeTab" class="tabste">Home</a></li>
+                    <li><a href="#aboutTab" class="tabste">About</a></li>
+                    <li><a href="#resourceTab" class="tabste">Resources</a></li>
+                    <li><a href="#demoTab" class="tabste">Demo</a></li>
+                </ul>
+                <div id="homeTab">
+                    <img src="./images/MesoMerchantHomeImage.png" alt="Home Image" id="homeimg">
+                    <div id="hometxt">
+                        <p>
+                            The purpose of this RPG is to enrich the history education of elementary children attending the sixth grade. This is achieved through in-game elements such NPC dialogs, objects, etc. Players will travel back in time to the Phoenician era and interact with an environment very different from their own. This games offers a different method of educating children while also being entertaining.
+                        </p>
+                        <br>
+                        <p>
+                            This game was created over the course of the fall 2021 semester at the University of Massachussetts, Lowell.
                         </p>
                     </div>
-                    <div>
-                        <a href="https://www.solarus-games.org/en/solarus/download">Solarus Launcher Download</a>
+                </div>
+                <div id="aboutTab">
+                    <div class="card">
+                        <img src="./images/benprofile.jpg" alt="Ben Profile Picture" class="profile">
+                        <div class="name">Benjamin Alexander</div>
+                        <div class="role">Requirements Analyst / Programmer</div>
+                        <div class="email">Email - Benjamin_alexander@student.uml.edu</div>
                     </div>
-                    <div>
-                        <p>The player version of the launcher should be downloaded. Next, the quest download can be obtained by cloning the following repository:
+                    <div class="card">
+                        <img src="./images/thprofile.jpg" alt="Tynan Profile Picture" class="profile">
+                        <div class="name">Tynan Hollyer</div>
+                        <div class="role">Researcher / Programmer</div>
+                        <div class="email">Email - Tynan_Hollyer@student.uml.edu</div>
+                        <div id="linkedin">
+                            <!-- Reference: https://1000logos.net/linkedin-logo/ -->
+                            <a href="https://www.linkedin.com/in/tynan-hollyer"><img src="./images/li.png" alt="Linkedin" class="limg"></a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./images/nprofile.jpg" alt="Nicky Profile Picture" class="profile">
+                        <div class="name">Nicky Nath</div>
+                        <div class="role">Librarian</div>
+                        <div class="email">Email - Nicky_nath@student.uml.edu</div>
+                    </div>
+                    <div class="card">
+                        <img src="./images/BrandonProfile.jpg" alt="Brandon Profile Picture" class="profile">
+                        <div class="name">Brandon Swanberg</div>
+                        <div class="role">Project Manager / Researcher / Programmer</div>
+                        <div class="email">Email - brandon_swanberg@student.uml.edu</div>
+                        <div id="linkedin">
+                            <!-- Reference: https://1000logos.net/linkedin-logo/ -->
+                            <a href="https://www.linkedin.com/in/brandonswanberg/"><img src="./images/li.png" alt="Linkedin" class="limg"></a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./images/rjprofile.jpg" alt="Raj Profile Picture" class="profile">
+                        <div class="name">Raj Vekeria</div>
+                        <div class="role">Web Developer / Researcher / Librarian</div>
+                        <div class="email">Email - raj_vekeria@student.uml.edu</div>
+                        <div id="linkedin">
+                            <!-- Reference: https://1000logos.net/linkedin-logo/ -->
+                            <a href="https://www.linkedin.com/in/raj-vekeria"><img src="./images/li.png" alt="Linkedin" class="limg"></a>
+                        </div>
+                    </div>
+                </div>
+                <div id="resourceTab">
+                    <div id="assigndocs">
+                        <header>Intermediate Assignments</header>
+                        <div>
+                            <i class="bi bi-file-earmark-arrow-down"></i>
+                            <a href="./src/SET4Req.pdf" download>Requirements Document</a>
+                        </div>
+                        <div>
+                            <i class="bi bi-file-earmark-arrow-down"></i>
+                            <a href="./images/SE_T4_UseCaseDiagram.png" download>Use Case Diagram</a>
+                        </div>
+                        <div>
+                            <i class="bi bi-file-earmark-arrow-down"></i>
+                            <a href="./images/classDiagram.png" download>Class Diagram</a>
+                        </div>
+                        <div>
+                            <i class="bi bi-file-earmark-arrow-down"></i>
+                            <a href="./images/sequenceDiagramPurchaseItem.png" download>Sequence Diagram (Purchase Item)</a>
+                        </div>
+                        <div>
+                            <i class="bi bi-file-earmark-arrow-down"></i>
+                            <a href="./images/sequenceDiagramSelectItem.png" download>Sequence Diagram (Select Item)</a>
+                        </div>
+                        <div>
+                            <i class="bi bi-file-earmark-arrow-down"></i>
+                            <a href="./src/SRSv1_Document.pdf" download>Software Requirements Specification (v1)</a>
+                        </div>
+                        <div>
+                            <i class="bi bi-file-earmark-arrow-down"></i>
+                            <a href="./src/SRSv2_Document.docx.pdf" download>Software Requirements Specification (v2)</a>
+                        </div>
+                    </div>
+                    <div id="sourcedocs">
+                        <header>Domain Research</header>
+                        <div class="sourcelist">
+                            <i class="bi bi-link-45deg"></i> Source 1 - 
+                            <a href="https://www.solarus-games.org/en/solarus">Solarus Game Engine</a>
+                        </div>
+                        <div class="sourcelist">
+                            <i class="bi bi-link-45deg"></i> Source 2 - 
+                            <a href="https://www.worldhistory.org/article/9/agriculture-in-the-fertile-crescent--mesopotamia/">Mesopotamia Agriculture</a>
+                        </div>
+                        <div class="sourcelist">
+                            <i class="bi bi-link-45deg"></i> Source 3 - 
+                            <a href="https://www.worldhistory.org/gilgamesh/">Gilgamesh History</a>
+                        </div>
+                        <div class="sourcelist">
+                            <i class="bi bi-link-45deg"></i> Source 4 - 
+                            <a href="https://www.doe.mass.edu/frameworks/hss/2018-12.pdf">Massachussetts Social Studies Framework 2018</a>
+                        </div>
+                        <div class="sourcelist">
+                            <i class="bi bi-link-45deg"></i> Source 5 - 
+                            <a href="https://www.historyonthenet.com/mesopotamian-merchants-and-traders">Mesopotamia Merchants</a>
+                        </div>
+                        <div class="sourcelist">
+                            <i class="bi bi-link-45deg"></i> Source 6 - 
+                            <a href="https://www.britannica.com/topic/cuneiform">Cuneiform Writing</a>
+                        </div>
+                        <div class="sourcelist">
+                            <i class="bi bi-link-45deg"></i> Source 7 - 
+                            <a href="https://www.britannica.com/place/Babylon-ancient-city-Mesopotamia-Asia">Babylon History</a>
+                        </div>
+                        <div class="sourcelist">
+                            <i class="bi bi-link-45deg"></i> Source 8 - 
+                            <a href="https://www.lua.org/manual/5.4/">Lua Programming Language</a>
+                        </div>
+                    </div>
+                    <div id="protodocs">
+                        <header>Prototype</header>
+                        <p>The MesoMerchant prototype is able to run on the following operating systems:
+                            Windows, Mac, Linux, Android, and Raspberry Pi. 
+                        </p>
+                        <p>   
+                            Solarus acts similar to running an
+                            emulator such that quests are loaded like ROM files.
+                            MesoMerchant currently runs on version 1.6.5 of Solarus which can be
+                            downloaded from the website found below.
+                        </p>
+                        <div class="protolist">
+                            <i class="bi bi-link-45deg"></i> 
+                            <a href="https://www.solarus-games.org/en/solarus/download">Solarus Launcher Download</a>
+                        </div>
+                        <p>
+                            The player version of the launcher should be downloaded. Next, the quest 
+                            download can be obtained by downloading the following repository. To the right of
+                            “Clone” in top right, click the 3 dots and select “Download as Zip”:
+                        </p>
+                        <div class="protolist">
+                            <i class="bi bi-link-45deg"></i> 
+                            <a href="https://dev.azure.com/team4sedev/Team4/_git/phoenician">MesoMerchant Repository</a>
+                        </div>
+                        <p>
+                            Unzip both files. Open the Solarus folder and run “solarus-launcher.exe”. Click
+                            “File”->”Add Quest”. Then navigate to the file titled “Phoenician/Data/quest.dat”, from
+                            the repository. Then press play.
                         </p>
                     </div>
-                    <div>
-                        <a href="https://dev.azure.com/team4sedev/Team4/_git/phoenician">MesoMerchant Repository</a>
+                    <div id="otherdocs">
+                        <header>Other</header>
+                        <div>
+                            <i class="bi bi-file-earmark-arrow-down"></i>
+                            <a href="./src/project-description.pdf" download>Original Project Description</a>
+                        </div>
+                        <div>
+                            <i class="bi bi-file-earmark-arrow-down"></i>
+                            <a href="./src/MesoMerchant.pdf" download>Presentation</a>
+                        </div>
                     </div>
-
                 </div>
-                <div id="s8">
-                    <header>Presentation</header>
-                </div>
-                <div id="s9">
-                    <header>SRS v1</header>
-                    <header>SRS v2</header>
-                </div>
-                <div id="s10">
-                    <header>Demonstration Video</header>
-                    <iframe width="420" height="315" src=""></iframe>
+                <div id="demoTab">
+                    <iframe width="620" height="415" src=""></iframe>
                 </div>
             </div>
         </div>
     </div>
-    <script src="js/switch.js"></script>
+    <script src="./js/content.js"></script>
 </body>
 </html>
