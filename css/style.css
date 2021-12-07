@@ -6,7 +6,7 @@ body, html {
     font-size: 35px;
     font-family: Tahoma;
     padding: 10px;
-    background-color: rgb(73, 139, 87);
+    background-color: rgb(62, 56, 145);
     color: white;
 }
 .ui-tabs .ui-tabs-nav {
@@ -18,12 +18,6 @@ body, html {
     float: none !important;
     display: inline-block;
 }
-#tabs .ui-state-highlight {
-    background-color: yellow;
-}
-#tabs .ui-tabs-active {
-    color: #000000;
-}
 #tabs .ui-state-default {
     background-color: lightblue;
 }
@@ -31,7 +25,8 @@ body, html {
 .ui-tabs .ui-tabs-nav li.ui-tabs-active a {
     font-family: Tahoma;
     color: black;
-    background-color: darkgrey;
+    background-color: rgb(62, 56, 145);;
+    color: white;
 }
 .ui-tabs .ui-tabs-nav a {
     background: #fff;
@@ -39,7 +34,8 @@ body, html {
     border-bottom: none;
 }
 .ui-tabs .ui-tabs-nav a:hover {
-    background:rgb(73, 139, 87);;
+    background: rgb(62, 56, 145);;
+    color: white;
 }
 #tabs {
     background: lightgray;
@@ -47,7 +43,7 @@ body, html {
 .tabste {
     font-size: 20px;
 }
-#homeTab, #resourceTab, #aboutTab, #demoTab {
+#homeTab, #resourceTab, #aboutTab, #demoTab, #prototypeTab {
     text-align: center;
     border-top: ridge 6px rgb(179, 179, 179);
 }
@@ -62,26 +58,29 @@ body, html {
     max-width: 800px;
     text-align: center;
 }
-#assigndocs, #sourcedocs, #otherdocs, #protodocs {
+#assigndocs, #sourcedocs, #otherdocs, #protodocs, #meetingdocs {
     border: solid 1px black;
-    margin: 5px;
+    margin: 0 auto;
     background: white;
     padding: 10px;
+    max-width: 900px;
 }
 header {
     font-size: 25px;
     font-weight: 500;
 }
 a:link:hover {
-    background: lightblue;
+    background: rgb(183, 182, 206);
     text-decoration: none;
+    color: black;
     font-weight: 600;
+    padding: 2px;
 }
 .profile {
     width: 300px;
     border-radius: 50%;
     margin: 0 auto;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 .name {
     font-weight: 600;
@@ -95,6 +94,8 @@ a:link:hover {
 }
 .card {
     margin: 15px;
+    margin: 0 auto;
+    max-width: 700px;
 }
 .limg { 
     width: 150px;
