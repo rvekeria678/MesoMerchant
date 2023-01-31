@@ -47,7 +47,7 @@ body, html {
 .tabste {
     font-size: 20px;
 }
-#homeTab, #resourceTab, #aboutTab, #prototypeTab, #demoTab {
+#homeTab, #resourceTab, #aboutTab, #demoTab {
     text-align: center;
     border-top: ridge 6px rgb(179, 179, 179);
 }
@@ -62,7 +62,7 @@ body, html {
     max-width: 800px;
     text-align: center;
 }
-#assigndocs, #sourcedocs, #otherdocs {
+#assigndocs, #sourcedocs, #otherdocs, #protodocs {
     border: solid 1px black;
     margin: 5px;
     background: white;
