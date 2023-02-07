@@ -1,0 +1,16 @@
+ul {
+    list-style: none;
+
+}
+a:link {
+    text-decoration: none;
+    color: black;
+}
+h3 {
+    transition: 0.25s;
+}
+h3:hover {
+   background: rgb(221, 221, 221);
+   font-size: 25px;
+   transition: 0.25s;
+}

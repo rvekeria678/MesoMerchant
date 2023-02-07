@@ -1,0 +1,10 @@
+#card-profiles {
+    text-align: center;
+}
+.row {
+    max-width: 80rem;
+    align-items: center;
+}
+#title {
+    padding-top: 0.5em;
+}
