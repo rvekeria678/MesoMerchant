@@ -26,7 +26,9 @@
     <link rel="stylesheet" href="../css/app.css" />
   </head>
   <body class="bg-[#00091a]">
-    <nav class="p-5 bg-white shadow md:flex md:items-center md:justify-between">
+    <nav
+      class="p-5 bg-white shadow md:flex md:items-center md:justify-between sticky top-0"
+    >
       <div class="flex justify-between items-center">
         <span class="text-2xl bg-white font-semibold cursor-pointer">
           <a href="../../index.html">MesoMerchant</a>
@@ -39,41 +41,73 @@
         class="md:flex md:items-center z-[-1] md:z-auto md:static absolute bg-white w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500"
       >
         <li class="mx-4 my-6 md:my-0">
-          <a
-            href="./about.html"
-            class="text-xl hover:text-gray-400 duration-300"
+          <a href="about.html" class="text-xl hover:text-gray-400 duration-300"
             >About</a
           >
         </li>
         <li class="mx-4 my-6 md:my-0">
           <a
-            href="./resources.html"
+            href="resources.html"
             class="text-xl hover:text-gray-400 duration-300"
             >Resources</a
           >
         </li>
         <li class="mx-4 my-6 md:my-0">
           <a
-            href="./prototype.html"
+            href="prototype.html"
             class="text-xl hover:text-gray-400 duration-300"
             >Prototype</a
           >
         </li>
         <li class="mx-4 my-6 md:my-0">
-          <a href="./demo.html" class="text-xl hover:text-gray-400 duration-300"
+          <a href="demo.html" class="text-xl hover:text-gray-400 duration-300"
             >Demo</a
           >
         </li>
       </ul>
     </nav>
-    <div grid grid-col-1>
-      <h1 class="text-white text-4xl text-center">Resources</h1>
-      <p class="text-white">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque esse eum
-        sapiente provident fugiat nihil possimus nisi! Labore eum id, dolore ab
-        dignissimos optio, praesentium rem, sequi voluptate eligendi ad!
-      </p>
+    <div class="max-w-[1800px] m-10">
+      <div class="mb-10">
+        <h1 class="text-white text-6xl text-left DESKTOP md:text-5xl">
+          Resources
+        </h1>
+      </div>
+      <div>
+        <h2 class="text-white text-3xl">Intermediate Assignments</h2>
+        <ul class="text-white">
+          <li class="m-2 text-xl">Requirements Document</li>
+          <li class="m-2 text-xl">Use Case Diagram</li>
+          <li class="m-2 text-xl">Class Diagram</li>
+          <li class="m-2 text-xl">Sequence Diagram (Purchase Item)</li>
+          <li class="m-2 text-xl">Sequence Diagram (Select Item)</li>
+          <li class="m-2 text-xl">SRS (version 1)</li>
+          <li class="m-2 text-xl">SRS (version 2)</li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="text-white text-3xl">Domain Research</h2>
+        <ul class="text-white">
+          <li class="m-2 text-xl">Solarus Game Engine</li>
+          <li class="m-2 text-xl">Mesopotamia Agriculture Research</li>
+          <li class="m-2 text-xl">Gilgamesh History</li>
+          <li class="m-2 text-xl">
+            Massachusetts Social Studies Framework (2018)
+          </li>
+          <li class="m-2 text-xl">Mesopotamia Merchants</li>
+          <li class="m-2 text-xl">Cuneiform Writing</li>
+          <li class="m-2 text-xl">Babylon History</li>
+          <li class="m-2 text-xl">Babylon History</li>
+          <li class="m-2 text-xl">Lua Programming Language</li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="text-white text-3xl">Agenda & Meeting Minutes</h2>
+        <ul class="text-white">
+          <li class="m-2 text-xl">Meeting Minutes</li>
+        </ul>
+      </div>
     </div>
+
     <script>
       function Menu(e) {
         let list = document.querySelector("ul");
