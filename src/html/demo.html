@@ -36,7 +36,7 @@
         </span>
       </div>
       <ul
-        class="border border-red-700 md:flex md:items-center z-[-1] md:z-auto md:static absolute bg-white w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500"
+        class="md:flex md:items-center z-[-1] md:z-auto md:static absolute bg-white w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500"
       >
         <li class="mx-4 my-6 md:my-0">
           <a
@@ -66,19 +66,28 @@
         </li>
       </ul>
     </nav>
-    <div>
+    <div grid grid-col-1>
       <h1 class="text-white text-4xl text-center">Demo</h1>
+      <p class="text-white">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque esse eum
+        sapiente provident fugiat nihil possimus nisi! Labore eum id, dolore ab
+        dignissimos optio, praesentium rem, sequi voluptate eligendi ad!
+      </p>
     </div>
     <script>
       function Menu(e) {
         let list = document.querySelector("ul");
-        e.name === "menu"
-          ? ((e.name = "close"),
-            list.classList.add("top-[55px]"),
-            list.classList.add("opacity-100"))
-          : ((e.name = "menu"),
-            list.classList.remove("top-[55px]"),
-            list.classList.remove("opacity-100"));
+        if (e.name === "menu") {
+          e.name = "close";
+          list.classList.add("top-[55px]");
+          list.classList.add("opacity-100");
+          list.classList.remove("z-[-1]");
+        } else {
+          e.name = "menu";
+          list.classList.remove("top-[55px]");
+          list.classList.remove("opacity-100");
+          list.classList.add("z-[-1]");
+        }
       }
     </script>
     <script src="./src/js/index.js"></script>
