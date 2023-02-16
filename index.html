@@ -68,32 +68,42 @@
         </li>
       </ul>
     </nav>
-    <div class="grid grid-cols-1 md:grid-cols-2">
-      <h1
-        class="text-white text-center m-10 text-3xl DESKTOP md:text-left md:text-5xl"
-      >
-        Experience the ancient world of Mesopotamia
-      </h1>
-      <p class="text-white text-left m-10 text-xl DESKTOP md:text-2xl">
-        The purpose of this RPG is to enrich the history education of elementary
-        children attending the sixth grade. This is achieved through in-game
-        elements such NPC dialogs, objects, etc. Players will travel back in
-        time to the Phoenician era and interact with an environment very
-        different from their own. This games offers a different method of
-        educating children while also being entertaining.
-        <br /><br />
-        This game was created over the course of the fall 2021 semester at the
-        University of Massachussetts, Lowell.
-      </p>
+    <div class="grid grid-cols-1 md:grid-cols-2 max-w-[1800px]">
+      <div>
+        <h1
+          class="text-white text-center m-10 mb-0 text-2xl DESKTOP md:text-left md:text-5xl"
+        >
+          Experience the ancient world of Mesopotamia
+        </h1>
+      </div>
+      <div class="grid grid-cols-1 p-10">
+        <img
+          class="rounded"
+          src="./src/assets/images/MesoMerchantHomeImage.png"
+        />
+        <p class="text-white text-left text-xl DESKTOP md:text-2xl mt-3">
+          The purpose of this RPG is to enrich the history education of
+          elementary children attending the sixth grade. This is achieved
+          through in-game elements such NPC dialogs, objects, etc. Players will
+          travel back in time to the Phoenician era and interact with an
+          environment very different from their own. This games offers a
+          different method of educating children while also being entertaining.
+          <br /><br />
+          This game was created over the course of the fall 2021 semester at the
+          University of Massachussetts, Lowell.
+        </p>
+      </div>
+      <!--
+      <div class="col-span-2">
+        <footer class="bg-gray-900 text-white text-right py-1 pr-10">
+          <small
+            >&copy Copyright 2023, Team 4 - FA2021 UMASS LOWELL, All Rights
+            Reserved</small
+          >
+        </footer>
+      </div>-->
     </div>
-    <footer
-      class="bg-gray-900 text-white absolute bottom-0 right-0 left-0 text-right py-1"
-    >
-      <small
-        >&copy Copyright 2023, Team 4 - FA2021 UMASS LOWELL, All Rights
-        Reserved</small
-      >
-    </footer>
+
     <script>
       function Menu(e) {
         let list = document.querySelector("ul");
