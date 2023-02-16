@@ -14,35 +14,75 @@
       href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
     <link rel="stylesheet" href="./dist/output.css" />
     <link rel="stylesheet" href="./src/css/app.css" />
   </head>
   <body class="bg-[#00091a]">
     <nav class="p-5 bg-white shadow md:flex md:items-center md:justify-between">
-      <div>
+      <div class="flex justify-between items-center">
         <span class="text-2xl bg-white font-semibold cursor-pointer">
           <a href="./index.html">MesoMerchant</a>
         </span>
+        <span class="text-3xl cursor-pointer mx-2 md:hidden block">
+          <ion-icon name="menu" onclick="Menu(this)"></ion-icon>
+        </span>
       </div>
-      <ul class="md:flex md:items-center">
-        <li class="mx-4">
-          <a href="#" class="text-xl hover:text-gray-400 duration-300">About</a>
+      <ul
+        class="border border-red-700 md:flex md:items-center z-[-1] md:z-auto md:static absolute bg-white w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500"
+      >
+        <li class="mx-4 my-6 md:my-0">
+          <a
+            href="./src/html/about.html"
+            class="text-xl hover:text-gray-400 duration-300"
+            >About</a
+          >
         </li>
-        <li class="mx-4">
-          <a href="#" class="text-xl hover:text-gray-400 duration-300"
+        <li class="mx-4 my-6 md:my-0">
+          <a
+            href="./src/html/resources.html"
+            class="text-xl hover:text-gray-400 duration-300"
             >Resources</a
           >
         </li>
-        <li class="mx-4">
-          <a href="#" class="text-xl hover:text-gray-400 duration-300"
+        <li class="mx-4 my-6 md:my-0">
+          <a
+            href="./src/html/prototype.html"
+            class="text-xl hover:text-gray-400 duration-300"
             >Prototype</a
           >
         </li>
-        <li class="mx-4">
-          <a href="#" class="text-xl hover:text-gray-400 duration-300">Demo</a>
+        <li class="mx-4 my-6 md:my-0">
+          <a
+            href="./src/html/demo.html"
+            class="text-xl hover:text-gray-400 duration-300"
+            >Demo</a
+          >
         </li>
       </ul>
     </nav>
-    <script src="./js/content.js"></script>
+    <div>
+      <h1 class="text-white text-4xl text-center">Home Page</h1>
+    </div>
+    <script>
+      function Menu(e) {
+        let list = document.querySelector("ul");
+        e.name === "menu"
+          ? ((e.name = "close"),
+            list.classList.add("top-[55px]"),
+            list.classList.add("opacity-100"))
+          : ((e.name = "menu"),
+            list.classList.remove("top-[55px]"),
+            list.classList.remove("opacity-100"));
+      }
+    </script>
+    <script src="./src/js/index.js"></script>
   </body>
 </html>
