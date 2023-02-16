@@ -36,7 +36,7 @@
         </span>
       </div>
       <ul
-        class="border border-red-700 md:flex md:items-center z-[-1] md:z-auto md:static absolute bg-white w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500"
+        class="md:flex md:items-center z-[-1] md:z-auto md:static absolute bg-white w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500"
       >
         <li class="mx-4 my-6 md:my-0">
           <a
@@ -68,9 +68,32 @@
         </li>
       </ul>
     </nav>
-    <div>
-      <h1 class="text-white text-4xl text-center">Home Page</h1>
+    <div class="grid grid-cols-1 md:grid-cols-2">
+      <h1
+        class="text-white text-center m-10 text-3xl DESKTOP md:text-left md:text-5xl"
+      >
+        Experience the ancient world of Mesopotamia
+      </h1>
+      <p class="text-white text-left m-10 text-xl DESKTOP md:text-2xl">
+        The purpose of this RPG is to enrich the history education of elementary
+        children attending the sixth grade. This is achieved through in-game
+        elements such NPC dialogs, objects, etc. Players will travel back in
+        time to the Phoenician era and interact with an environment very
+        different from their own. This games offers a different method of
+        educating children while also being entertaining.
+        <br /><br />
+        This game was created over the course of the fall 2021 semester at the
+        University of Massachussetts, Lowell.
+      </p>
     </div>
+    <footer
+      class="bg-gray-900 text-white absolute bottom-0 right-0 left-0 text-right py-1"
+    >
+      <small
+        >&copy Copyright 2023, Team 4 - FA2021 UMASS LOWELL, All Rights
+        Reserved</small
+      >
+    </footer>
     <script>
       function Menu(e) {
         let list = document.querySelector("ul");
