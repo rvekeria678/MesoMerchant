@@ -97,13 +97,17 @@
     <script>
       function Menu(e) {
         let list = document.querySelector("ul");
-        e.name === "menu"
-          ? ((e.name = "close"),
-            list.classList.add("top-[55px]"),
-            list.classList.add("opacity-100"))
-          : ((e.name = "menu"),
-            list.classList.remove("top-[55px]"),
-            list.classList.remove("opacity-100"));
+        if (e.name === "menu") {
+          e.name = "close";
+          list.classList.add("top-[55px]");
+          list.classList.add("opacity-100");
+          list.classList.remove("z-[-1]");
+        } else {
+          e.name = "menu";
+          list.classList.remove("top-[55px]");
+          list.classList.remove("opacity-100");
+          list.classList.add("z-[-1]");
+        }
       }
     </script>
     <script src="./src/js/index.js"></script>

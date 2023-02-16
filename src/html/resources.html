@@ -36,7 +36,7 @@
         </span>
       </div>
       <ul
-        class="md:flex md:items-center z-[-1] md:z-auto md:static absolute bg-white w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500"
+        class="md:flex md:items-center z-[1] md:z-auto md:static absolute bg-white w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500"
       >
         <li class="mx-4 my-6 md:my-0">
           <a
@@ -66,10 +66,21 @@
         </li>
       </ul>
     </nav>
-    <br />
-    <div class="grid-cols-1">
-      <h1 class="text-white">Resources</h1>
+    <div class="grid grid-cols-1 md:grid-cols-2">
+      <h1
+        class="text-white text-center m-10 text-3xl DESKTOP md:text-left md:text-5xl"
+      >
+        Resources
+      </h1>
     </div>
+    <footer
+      class="bg-gray-900 text-white absolute bottom-0 right-0 left-0 text-right py-1"
+    >
+      <small
+        >&copy Copyright 2023, Team 4 - FA2021 UMASS LOWELL, All Rights
+        Reserved</small
+      >
+    </footer>
     <script>
       function Menu(e) {
         let list = document.querySelector("ul");
