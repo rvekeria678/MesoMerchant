@@ -1,0 +1,23 @@
+{
+  "name": "mesomerchant",
+  "version": "1.0.0",
+  "description": "The purpose of this application to create a website that will house all information\r related to the game 'MesoTrading' which was created for Software Engineering 1, a\r course offered by the University of Massachusetts, Lowell. The following are a list\r of documents that are available for download for the user:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rvekeria678/MesoMerchant.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rvekeria678/MesoMerchant/issues"
+  },
+  "homepage": "https://github.com/rvekeria678/MesoMerchant#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.6"
+  }
+}
