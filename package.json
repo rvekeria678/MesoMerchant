@@ -4,7 +4,8 @@
   "description": "The purpose of this application to create a website that will house all information\r related to the game 'MesoTrading' which was created for Software Engineering 1, a\r course offered by the University of Massachusetts, Lowell. The following are a list\r of documents that are available for download for the user:",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwindcss -i ./src/css/input.css -o ./dist/output.css --watch"
   },
   "repository": {
     "type": "git",
