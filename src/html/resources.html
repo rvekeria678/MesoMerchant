@@ -1,129 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <title>MesoMerchant</title>
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
-    />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
-      rel="stylesheet"
-    />
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet" />
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <link rel="stylesheet" href="../../dist/output.css" />
     <link rel="stylesheet" href="../css/app.css" />
-  </head>
-  <body class="bg-[#00091a]">
-    <nav
-      class="p-5 bg-white shadow md:flex md:items-center md:justify-between sticky top-0"
-    >
-      <div class="flex justify-between items-center">
-        <span class="text-2xl bg-white font-semibold cursor-pointer">
-          <a href="../../index.html">MesoMerchant</a>
-        </span>
-        <span class="text-3xl cursor-pointer mx-2 md:hidden block">
-          <ion-icon name="menu" onclick="Menu(this)"></ion-icon>
-        </span>
-      </div>
-      <ul
-        class="md:flex md:items-center z-[-1] md:z-auto md:static absolute bg-white w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500"
-      >
-        <li class="mx-4 my-6 md:my-0">
-          <a href="about.html" class="text-xl hover:text-gray-400 duration-300"
-            >About</a
-          >
-        </li>
-        <li class="mx-4 my-6 md:my-0">
-          <a
-            href="resources.html"
-            class="text-xl hover:text-gray-400 duration-300"
-            >Resources</a
-          >
-        </li>
-        <li class="mx-4 my-6 md:my-0">
-          <a
-            href="prototype.html"
-            class="text-xl hover:text-gray-400 duration-300"
-            >Prototype</a
-          >
-        </li>
-        <li class="mx-4 my-6 md:my-0">
-          <a href="demo.html" class="text-xl hover:text-gray-400 duration-300"
-            >Demo</a
-          >
-        </li>
-      </ul>
+</head>
+
+<body class="bg-[#00091a]">
+    <nav class="p-5 bg-white shadow md:flex md:items-center md:justify-between sticky top-0">
+        <div class="flex justify-between items-center">
+            <span class="text-2xl bg-white font-semibold cursor-pointer">
+                <a href="../../index.html">MesoMerchant</a>
+            </span>
+            <span class="text-3xl cursor-pointer mx-2 md:hidden block">
+                <ion-icon name="menu" onclick="Menu(this)"></ion-icon>
+            </span>
+        </div>
+        <ul
+            class="md:flex md:items-center z-[-1] md:z-auto md:static absolute bg-white w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
+            <li class="mx-4 my-6 md:my-0">
+                <a href="about.html" class="text-xl hover:text-gray-400 duration-300">About</a>
+            </li>
+            <li class="mx-4 my-6 md:my-0">
+                <a href="resources.html" class="text-xl hover:text-gray-400 duration-300">Resources</a>
+            </li>
+            <li class="mx-4 my-6 md:my-0">
+                <a href="prototype.html" class="text-xl hover:text-gray-400 duration-300">Prototype</a>
+            </li>
+            <li class="mx-4 my-6 md:my-0">
+                <a href="demo.html" class="text-xl hover:text-gray-400 duration-300">Demo</a>
+            </li>
+        </ul>
     </nav>
     <div class="max-w-[1800px] m-10">
-      <div class="mb-10">
-        <h1 class="text-white text-6xl text-left DESKTOP md:text-5xl">
-          Resources
-        </h1>
-      </div>
-      <div>
-        <h2 class="text-white text-3xl">Intermediate Assignments</h2>
-        <ul class="text-white">
-          <li class="m-2 text-xl">Requirements Document</li>
-          <li class="m-2 text-xl">Use Case Diagram</li>
-          <li class="m-2 text-xl">Class Diagram</li>
-          <li class="m-2 text-xl">Sequence Diagram (Purchase Item)</li>
-          <li class="m-2 text-xl">Sequence Diagram (Select Item)</li>
-          <li class="m-2 text-xl">SRS (version 1)</li>
-          <li class="m-2 text-xl">SRS (version 2)</li>
-        </ul>
-      </div>
-      <div>
-        <h2 class="text-white text-3xl">Domain Research</h2>
-        <ul class="text-white">
-          <li class="m-2 text-xl">Solarus Game Engine</li>
-          <li class="m-2 text-xl">Mesopotamia Agriculture Research</li>
-          <li class="m-2 text-xl">Gilgamesh History</li>
-          <li class="m-2 text-xl">
-            Massachusetts Social Studies Framework (2018)
-          </li>
-          <li class="m-2 text-xl">Mesopotamia Merchants</li>
-          <li class="m-2 text-xl">Cuneiform Writing</li>
-          <li class="m-2 text-xl">Babylon History</li>
-          <li class="m-2 text-xl">Babylon History</li>
-          <li class="m-2 text-xl">Lua Programming Language</li>
-        </ul>
-      </div>
-      <div>
-        <h2 class="text-white text-3xl">Agenda & Meeting Minutes</h2>
-        <ul class="text-white">
-          <li class="m-2 text-xl">Meeting Minutes</li>
-        </ul>
-      </div>
+        <div class="mb-10">
+            <h1 class="text-white text-6xl text-left DESKTOP md:text-5xl">
+                Resources
+            </h1>
+        </div>
+        <div class="grid grid-cols-1 gap-y-5 md:grid-cols-2 md:gap-y-10">
+            <div>
+                <h2 class="text-white text-3xl">Intermediate Assignments</h2>
+                <ul class="text-white">
+                    <li class="m-2 text-xl">Requirements Document</li>
+                    <li class="m-2 text-xl">Use Case Diagram</li>
+                    <li class="m-2 text-xl">Class Diagram</li>
+                    <li class="m-2 text-xl">Sequence Diagram (Purchase Item)</li>
+                    <li class="m-2 text-xl">Sequence Diagram (Select Item)</li>
+                    <li class="m-2 text-xl">SRS (version 1)</li>
+                    <li class="m-2 text-xl">SRS (version 2)</li>
+                </ul>
+            </div>
+            <div>
+                <h2 class="text-white text-3xl">Domain Research</h2>
+                <ul class="text-white">
+                    <li class="m-2 text-xl">Solarus Game Engine</li>
+                    <li class="m-2 text-xl">Mesopotamia Agriculture Research</li>
+                    <li class="m-2 text-xl">Gilgamesh History</li>
+                    <li class="m-2 text-xl">
+                        Massachusetts Social Studies Framework (2018)
+                    </li>
+                    <li class="m-2 text-xl">Mesopotamia Merchants</li>
+                    <li class="m-2 text-xl">Cuneiform Writing</li>
+                    <li class="m-2 text-xl">Babylon History</li>
+                    <li class="m-2 text-xl">Babylon History</li>
+                    <li class="m-2 text-xl">Lua Programming Language</li>
+                </ul>
+            </div>
+            <div>
+                <h2 class="text-white text-3xl">Agenda & Meeting Minutes</h2>
+                <ul class="text-white">
+                    <li class="m-2 text-xl">Meeting Minutes</li>
+                </ul>
+            </div>
+            <div>
+                <h2 class="text-white text-3xl">Other</h2>
+                <ul class="text-white">
+                    <li class="m-2 text-xl">Project Description</li>
+                </ul>
+            </div>
+        </div>
     </div>
-
     <script>
-      function Menu(e) {
-        let list = document.querySelector("ul");
-        if (e.name === "menu") {
-          e.name = "close";
-          list.classList.add("top-[55px]");
-          list.classList.add("opacity-100");
-          list.classList.remove("z-[-1]");
-        } else {
-          e.name = "menu";
-          list.classList.remove("top-[55px]");
-          list.classList.remove("opacity-100");
-          list.classList.add("z-[-1]");
+        function Menu(e) {
+            let list = document.querySelector("ul");
+            if (e.name === "menu") {
+                e.name = "close";
+                list.classList.add("top-[55px]");
+                list.classList.add("opacity-100");
+                list.classList.remove("z-[-1]");
+            } else {
+                e.name = "menu";
+                list.classList.remove("top-[55px]");
+                list.classList.remove("opacity-100");
+                list.classList.add("z-[-1]");
+            }
         }
-      }
     </script>
     <script src="./src/js/index.js"></script>
-  </body>
+</body>
+
 </html>
