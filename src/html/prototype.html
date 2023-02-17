@@ -1,95 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <title>MesoMerchant</title>
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
-    />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
-      rel="stylesheet"
-    />
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet" />
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <link rel="stylesheet" href="../../dist/output.css" />
     <link rel="stylesheet" href="../css/app.css" />
-  </head>
-  <body class="bg-[#00091a]">
+</head>
+
+<body class="bg-[#00091a]">
     <nav class="p-5 bg-white shadow md:flex md:items-center md:justify-between">
-      <div class="flex justify-between items-center">
-        <span class="text-2xl bg-white font-semibold cursor-pointer">
-          <a href="../../index.html">MesoMerchant</a>
-        </span>
-        <span class="text-3xl cursor-pointer mx-2 md:hidden block">
-          <ion-icon name="menu" onclick="Menu(this)"></ion-icon>
-        </span>
-      </div>
-      <ul
-        class="md:flex md:items-center z-[-1] md:z-auto md:static absolute bg-white w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500"
-      >
-        <li class="mx-4 my-6 md:my-0">
-          <a
-            href="./about.html"
-            class="text-xl hover:text-gray-400 duration-300"
-            >About</a
-          >
-        </li>
-        <li class="mx-4 my-6 md:my-0">
-          <a
-            href="./resources.html"
-            class="text-xl hover:text-gray-400 duration-300"
-            >Resources</a
-          >
-        </li>
-        <li class="mx-4 my-6 md:my-0">
-          <a
-            href="./prototype.html"
-            class="text-xl hover:text-gray-400 duration-300"
-            >Prototype</a
-          >
-        </li>
-        <li class="mx-4 my-6 md:my-0">
-          <a href="./demo.html" class="text-xl hover:text-gray-400 duration-300"
-            >Demo</a
-          >
-        </li>
-      </ul>
+        <div class="flex justify-between items-center">
+            <span class="text-2xl bg-white font-semibold cursor-pointer">
+                <a href="../../index.html">MesoMerchant</a>
+            </span>
+            <span class="text-3xl cursor-pointer mx-2 md:hidden block">
+                <ion-icon name="menu" onclick="Menu(this)"></ion-icon>
+            </span>
+        </div>
+        <ul
+            class="md:flex md:items-center z-[-1] md:z-auto md:static absolute bg-white w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
+            <li class="mx-4 my-6 md:my-0">
+                <a href="./about.html" class="text-xl hover:text-gray-400 duration-300">About</a>
+            </li>
+            <li class="mx-4 my-6 md:my-0">
+                <a href="./resources.html" class="text-xl hover:text-gray-400 duration-300">Resources</a>
+            </li>
+            <li class="mx-4 my-6 md:my-0">
+                <a href="./prototype.html" class="text-xl hover:text-gray-400 duration-300">Prototype</a>
+            </li>
+            <li class="mx-4 my-6 md:my-0">
+                <a href="./demo.html" class="text-xl hover:text-gray-400 duration-300">Demo</a>
+            </li>
+        </ul>
     </nav>
-    <div grid grid-col-1>
-      <h1 class="text-white text-4xl text-center">Prototype</h1>
-      <p class="text-white">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque esse eum
-        sapiente provident fugiat nihil possimus nisi! Labore eum id, dolore ab
-        dignissimos optio, praesentium rem, sequi voluptate eligendi ad!
-      </p>
+    <div id="prototype--content">
+        <h1 class="text-white text-5xl m-10">How to get Started</h1>
+        <div class="grid grid-cols-1 m-10">
+            <div class="text-white text-xl">MesoMerchant is easy to download and install so that players can get into
+                the anicent world quicker. The game is able to run on a variety of different platforms: Windows, Linux,
+                Mac, Android <br><br>Solarus acts similar to running an emulator such that quests are loaded like ROM
+                files.
+                MesoMerchant currently runs on version 1.6.5 of <a class="text-orange-300"
+                    href="https://www.solarus-games.org/en/solarus/download">Solarus</a>.
+
+            </div>
+            <div></div>
+        </div>
     </div>
     <script>
-      function Menu(e) {
-        let list = document.querySelector("ul");
-        if (e.name === "menu") {
-          e.name = "close";
-          list.classList.add("top-[55px]");
-          list.classList.add("opacity-100");
-          list.classList.remove("z-[-1]");
-        } else {
-          e.name = "menu";
-          list.classList.remove("top-[55px]");
-          list.classList.remove("opacity-100");
-          list.classList.add("z-[-1]");
+        function Menu(e) {
+            let list = document.querySelector("ul");
+            if (e.name === "menu") {
+                e.name = "close";
+                list.classList.add("top-[55px]");
+                list.classList.add("opacity-100");
+                list.classList.remove("z-[-1]");
+            } else {
+                e.name = "menu";
+                list.classList.remove("top-[55px]");
+                list.classList.remove("opacity-100");
+                list.classList.add("z-[-1]");
+            }
         }
-      }
     </script>
     <script src="./src/js/index.js"></script>
-  </body>
+</body>
+
 </html>
