@@ -1,4 +1,15 @@
 # MesoTrading
+
+##Table of Contents
+
+*[General info](#general-info)
+*[Technologies](#technologies)
+
+## General info
+
+## Technologies
+
+
 The purpose of this application to create a website that will house all information
 related to the game 'MesoTrading' which was created for Software Engineering 1, a
 course offered by the University of Massachusetts, Lowell. The following are a list
