@@ -7,15 +7,13 @@ the University of Massachusetts, Lowell.
 * [Technologies](#technologies)
 
 ## General info
+The purpose of this website is to direct users to a place where they can download and install
+the Mesomerchant game. Further, there is information on the development process of the game; users
+are able to download documentation regarding the game's mechanics as well as domain research
+used to get familiar with certain technologies and historical resources used to create an immersive
+experience.
 
-## Technologies
-
-
-The purpose of this application to create a website that will house all information
-related to the game 'MesoTrading' which was created for Software Engineering 1, a
-course offered by the University of Massachusetts, Lowell. The following are a list
-of documents that are available for download for the user:
-
+The following are a list of documents that can be downloaded from the site:
 - Intermediate Assignments
     - Requirements Document
     - Use Case Diagram
@@ -30,10 +28,9 @@ of documents that are available for download for the user:
     - Original Project Description
     - Project Presentation
 
-The user will also have access to a copy of MesoMerchant. To download their own copy,
-the user will need to navigate to the 'Prototype' Tab which holds two important links:
-the download of the Solarus Game Engine, and a repository holding the game. Users will
-need to visit both of these pages in order to successfully download and play the game.
-
-The website also features a video which demonstates the running of MesoMerchant and all
-of its implemented features.
+## Technologies
+The web application makes use of several programming tools and languages:
+-HTML5
+-Javascript
+-CSS
+-TailwindCSS
