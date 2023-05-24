@@ -1,9 +1,10 @@
 # MesoTrading
-
+A web application for the Mesomerchant game developed during the 2021 fall semester at
+the University of Massachusetts, Lowell.
 ##Table of Contents
 
-*[General info](#general-info)
-*[Technologies](#technologies)
+* [General info](#general-info)
+* [Technologies](#technologies)
 
 ## General info
 
