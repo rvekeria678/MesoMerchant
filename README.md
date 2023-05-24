@@ -30,7 +30,7 @@ The following are a list of documents that can be downloaded from the site:
 
 ## Technologies
 The web application makes use of several programming tools and languages:
--HTML5
--Javascript
--CSS
--TailwindCSS
+- HTML5
+- Javascript
+- CSS
+- TailwindCSS
